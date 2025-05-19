@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Сайт_ИП_Гребёнкин_Дмитрий_П-17</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="delivery-nav-container">
+        <div class="container">
+            <div class="delivery-nav flex">
+                <form>
+                    <a href=""><img src="/img/point.png" alt=""></a>
+                    <label class="text-gorod" for="city">Ваш регион доставки:</label>
+                    <select id="city" name="city" class="form-nav">
+                        <option value="moscow">Москва</option>
+                        <option value="spb">Санкт-Петербург</option>
+                        <option value="perm">Пермь</option>
+                        <option value="ekaterinburg">Екатеринбург</option>
+                        <option value="kazan">Казань</option>
+                    </select>
+                </form>
+            
+                <ul class="nav-text">
+                    <li><a href="#store">Магазин</a></li>
+                    <li><a href="#help">Помощь</a></li>
+                    <li><a href="#blog">Блоги</a></li>
+                </ul>
+
+                <ul class="help-header">
+                    <li>
+                        <img src="./img/freedvlr.png" alt="" class="help-icon">
+                        <a href="#help">Бесплатная доставка</a>
+                    </li>
+                    <li class="vozvart-opp">
+                        <img src="./img/vozvrat.png" alt="" class="help-icon">
+                        <a href="#Help">Оплата при получение</a>
+                    </li>
+                    <li>
+                        <img src="./img/pay.png" alt="" class="help-icon">
+                        <a href="#help">Возврат в течение 14 дней</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-nav-container">
+        <div class="container">
+            <div class="header-nav">
+                <div class="pic-header">
+                    <ul class="left-links flex ">
+                        <li class="header-link"><a href="#store">Мужчинам</a></li>
+                        <li class="header-link"><a href="#store">Женщинам</a></li>
+                        <li class="header-link"><a href="#store">Детям</a></li>    
+                    </ul>
+            
+                    <a class="cursor" href="#"><img class="logo" src="./img/logo.png" alt="logo"></a>
+                    
+                    
+                    <div class="right-icons">
+                        <a href="#help"><img src="./img/login.png" alt=""></a>
+                        <a href="#store"><img src="./img/like.png" alt=""></a>
+                        <a href="#store"><img src="./img/cart.png" alt=""></a>
+                        <a href="#help"><img src="./img/serch.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <nav>
+        
+      <div class="header-nav-chapter-container">
+        <div class="container">
+            <div class="header-nav-chapter"> 
+    
+                <div class="burger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <ul class="menu" id="menu">
+            <li class="header-link"><a href="#store">Новинки</a></li>
+            <li class="header-link"><a href="#store">Сноуборд</a></li>
+            <li class="header-link"><a href="#store">Лыжи</a></li>
+            <li class="header-link"><a href="#store">Скейт</a></li>
+            <li class="header-link"><a href="#store">Лонгборд</a></li>
+            <li class="header-link"><a href="#store">Вейкборд</a></li>
+            <li class="header-link"><a href="#store">Сёрф</a></li>
+            <li class="header-link"><a href="#store">Sup</a></li>
+            <li class="header-link"><a href="#store">Одежда</a></li>
+            <li class="header-link"><a href="#store">Обувь</a></li>
+            <li class="header-link"><a href="#store">Аксессуары</a></li>
+            <li class="header-link"><a href="#store">Бренды</a></li>
+            <li class="header-link"><a class="p-red" href="#help">Распродажа</a></li>       
+        </ul>
+       </div>
+    </div>
+</div>
+</nav>
+
+   <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+
+
+    <main class="main">
+        <section class="container-slider">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slider-1" src="./img/slider1.png" alt="">
+                    <img id="slider-2" src="./img/picmain.png" alt="">
+                    <img id="slider-3" src="./img/Slider2.png" alt="">
+                    
+                </div>
+                <div id="sponsr" class="slider-nav">
+                    <button class="slider-nav__arrow slider-prev"> <img src="./img/swiper_left.svg" alt=""></button>
+                    <button class="slider-nav__arrow slider-next"> <img src="./img/swiper_right.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+
+
+        <div  class="brands-pic flex"> <img src="./img/brands.png" alt=""></div>
+
+        <div class="share-pic flex">
+            <div class="share-pic1"><img src="./img/Share_1.png" alt="share"><p >НАЗВАНИЕ АКЦИИ №1</p></div>
+            <div class="sahre-pic2"><img src="./img/Share_2.png" alt="share"><p >НАЗВАНИЕ АКЦИИ №2</p></div>
+        </div>
+
+
+
+
+
+        <h2 class="h2-main" id="store">Новинки</h2>
+
+
+
+        <div class="container-card">
+            <div class="card">
+                <div class="card-color">
+                    <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/LIB_TECH1.png" alt="">
+                </div>
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужской Сноуборд</p>
+                <p class="price">34392 ₽</p>
+            </div>
+
+            <div class="card">
+                <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/LIB_TECH2.png" alt="">
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужской Сноуборд</p>
+                <div class="sale-price"><del>34392 ₽</del><p class="p-red">17392 ₽</p></div>
+            </div>
+
+            <div class="card">
+                <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/LIB_TECH3.png" alt="">
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужской Сноуборд</p>
+                <p class="price">34392 ₽</p>
+            </div>
+
+            <div class="card">
+                <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/LIB_TECH4.png" alt="">
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужской Сноуборд</p>
+                <p class="price">34392 ₽</p>
+            </div>
+           
+        </div>
+
+
+        <div class="more flex">
+            <h4 class="btn-text-more flex" >Показать больше</h4>
+        </div>
+        
+        <div class="dc-pic">
+            <div class="dc-logo"> <img src="./img/logo-ds.png" alt=""></div>
+        </div>
+
+        <div class="text-main">
+            <div class="text-main">
+                <h2>Название Акции</h2>
+                <p>Меня не&nbsp;спрашивали, а&nbsp;надо было спросить, что означает имя Заратустры именно в&nbsp;моих устах&nbsp;&mdash; в&nbsp;устах первого имморалиста: ведь&nbsp;то, в&nbsp;чём состоит неслыханная уникальность этого перса в&nbsp;истории, являет собою противоположность как раз этому.</p>
+            </div>
+        </div>
+
+        <div class="popular-collection"><h2>DC Shoes популярное в коллекции</h2></div>
+
+
+        <div class="container-card">
+            <div class="card">
+                <div class="card-color">
+                    <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/LIB_TECH1.png" alt=""> 
+                </div>
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужской Сноуборд</p>
+                <div class="sale-price"><del>34392 ₽</del><p class="p-red">17392 ₽</p></div>
+            </div>
+
+            <div class="card">
+                <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/shuos.png" alt="">
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужская обувь</p>
+                <div class="sale-price"><del>34392 ₽</del><p class="p-red">17392 ₽</p></div>
+            </div>
+
+            <div class="card">
+                <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/LIB_TECH3.png" alt="">
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужской Сноуборд</p>
+                <p class="price">34392 ₽</p>
+            </div>
+
+            <div class="card">
+                <button class="favorite-btn"><img src="./img/starcart.svg" alt=""></button>
+                <img src="./img/LIB_TECH4.png" alt="">
+                <h2>LIB TECH</h2>
+                <p class="p-color">Мужской Сноуборд</p>
+                <p class="price">34392 ₽</p>
+            </div>
+        </div>
+
+        <div class="more flex">
+            <h4 class="btn-text-more flex">Показать больше</h4>
+        </div>
+
+        <div class="background-blog">
+            <div class="slider-nav-blog">
+                <button class="slider-nav-blog__arrow slider-prev-blog decorative-arrow"> 
+                    <img src="./img/swiper_left.svg" alt="">
+                </button>
+                <button class="slider-nav-blog__arrow slider-next-blog decorative-arrow"> 
+                    <img src="./img/swiper_right.svg" alt="">
+                </button>
+            </div>
+                
+            <div class="very-long-blog flex">
+                <img src="./img/wear.png" alt="">
+                <div class="text-blog"> 
+                    <ul class="blogs flex">
+                        <li class="li-blog">Блоги</li>
+                        <li class="li-blog-all">Все блоги</li>
+                    </ul>
+                    <div class="very-long-blog-text">
+                        <h2>Очень преочень <br> длинное название блога</h2>
+                        <p>Меня не&nbsp;спрашивали, а&nbsp;надо было спросить, что означает имя Заратустры именно в&nbsp;моих устах&nbsp;&mdash; в&nbsp;устах первого имморалиста: ведь&nbsp;то, в&nbsp;чём состоит неслыханная уникальность этого перса в&nbsp;истории, являет собою противоположность как раз этому.</p> 
+                        <p>Меня не&nbsp;спрашивали, а&nbsp;надо было спросить, что означает имя Заратустры именно в&nbsp;моих устах&nbsp;&mdash; в&nbsp;устах первого имморалиста: ведь&nbsp;то, в&nbsp;чём состоит неслыханная уникальность этого перса в&nbsp;истории, являет собою противоположность как раз этому.</p>
+                    </div>
+                    <div class="read-later">
+                        <img src="./img/read-later.svg" alt="">
+                        <p>Читать продолжение</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="programm-lot">
+            <div class="programm-lot1"><img src="./img/logo-border-club.png" alt="">
+            <h2>Программа лояльности</h2>
+            <p>Зарабатывайте баллы и получайте преимущества</p>
+            <div class="btn-welcom-club "> <a href="#email">Вступить в клуб</a></div>
+        </div>
+            <div class="form-email"> <img src="./img/Vector.png" alt="">
+                <h2>Скидка -10%</h2>
+                <p>За подписку на наши новости</p>
+                <div>
+                    <form action="#" method="get">
+                        <div class="email-container">
+                            <img src="./img/email.svg" alt="">
+                            <label id="email" class="email-label">Email</label>
+                            <input type="email" class="email-input">
+                            <button type="submit" class="submit-btn"></button>
+                            <img src="./img/send.svg" alt="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="back-footer">   
+            <div class="footer-container">
+           
+                <div class="top-block">
+                    <div class="logo-wrapper">
+                        <img src="./img/lojo.png" alt="Логотип" class="footer-logo">
+                    </div>
+                    <div class="email-form">
+                        <img src="./img/email-grey.svg" alt="Email" class="email-icon">
+                        <label class="email-label">Подпишись на рассылку и получи <strong class="red-color">-10%</strong> скидку</label>
+                        <input type="email" class="email-input" placeholder="">
+                        <button type="submit" class="submit-btn">
+                            <img src="./img/submit-whi.svg" alt="Подписаться">
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="middle-block">
+
+                    <div class="image-container">
+                        <div class="vertical-images">
+                          <img src="./img/app_store.png" alt="">
+                          <img src="./img/google.png" alt="">
+                        </div>
+                        <img src="./img/qr-code.png" alt="">
+                      </div>
+
+                    <div class="contact">
+                        <h3>Контакты</h3>
+                            <div class="phone-block">
+                                <div class="phone">
+                                    <img src="./img/phone.svg" alt="">
+                                    <p class="phone-number"> 8 (800) 511-74-68</p>
+                                </div>
+                                <div class="p-text-container">
+                                    <p class="p-text">Бесплатная горячая линия <br>
+                                        Ежедневно с 9 до 21</p>
+                                </div>
+                            </div>
+                            <div class="email-block">
+                                <div class="email">
+                                    <img src="./img/email-footer.svg" alt="">
+                                    <h3 class="email-number">Контактный Email</h3>
+                                </div>
+                                    <p class="text-email">info@brd.ru </p>
+                            </div>
+                    </div>
+
+
+                    <div class="footer-menu">
+                        <h3 id="help">Помощь</h3>
+                        <ul>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Возврат</a></li>
+                            <li><a href="#">Отзывы (2290)</a></li>
+                            <li><a href="#">Акции и скидки</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-menu">
+                        <h3>Компания</h3>
+                        <ul>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">О boardriders</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Публичная оферта</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-menu">
+                        <h3>Boardriders Inc.</h3>
+                        <ul>
+                            <li><a href="#sponsr">Франчайзинг</a></li>
+                            <li><a href="#sponsr">Quiksilver</a></li>
+                            <li><a href="#sponsr">Roxy</a></li>
+                            <li><a href="#sponsr">DC Shoes</a></li>
+                            <li><a href="#sponsr">Boardriders Club</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bottom-block">
+                    <div>
+                        <a href="https://www.twitch.tv/stepan4k174">
+                            <img src="./img/twitch.svg" alt="twich">
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        <p>© 2020 Brd.ru. Все права защищены</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    
+</body>
+</html>
